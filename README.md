@@ -1,8 +1,8 @@
-:airplane: ## Flight Assistant
+## :airplane: Flight Assistant
 
 Assistente de linha de comando para buscar voos usando Amadeus + LangChain + OpenAI.
 
-1️⃣ Pré-requisitos
+### 1️⃣ Pré-requisitos
 python >= 3.10
 
 Requisitos:
@@ -19,7 +19,7 @@ https://developers.amadeus.com
 
 https://smith.langchain.com
 
-2️⃣ Criar chaves de API
+### 2️⃣ Criar chaves de API
 
 OpenAI
 export OPENAI_API_KEY="sk-..."
@@ -44,14 +44,14 @@ No Colab:
 import os
 os.environ["OPENAI_API_KEY"] = "..."
 
-3️⃣ Instalar dependências
+### 3️⃣ Instalar dependências
 pip install -r requirements.txt
 
 
-4️⃣ Rodar o projeto
+### 4️⃣ Rodar o projeto
 python main.py
 
-5️⃣ Exemplo de uso
+### 5️⃣ Exemplo de uso
 ✈️ Flight Assistant
 
 F.A.:Para onde você quer viajar?
@@ -78,11 +78,11 @@ Opção 1 - mais barata
 ...
 
 Estrutura do repo
-flight-assistant/
+flight-assistant-amadeus/
 ├── main.py
 ├── agent.py
 ├── tools/
-│   ├── flights.py
-│   └── aggregate.py
+│ ├── flights.py
+│ └── aggregate.py
 ├── requirements.txt
 └── README.md
