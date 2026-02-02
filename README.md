@@ -78,6 +78,7 @@ Opção 1 - mais barata
 ...
 
 Estrutura do repo
+
 flight-assistant-amadeus/
 ├── main.py
 ├── agent.py
