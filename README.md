@@ -77,13 +77,15 @@ Opção 1 - mais barata
 - Duração aproximada: ida ~16h total; volta ~18h20m total
 ...
 
-Estrutura do repo
+### Estrutura do repo
 
+```text
 flight-assistant-amadeus/
 ├── main.py
 ├── agent.py
 ├── tools/
-│ ├── flights.py
-│ └── aggregate.py
+│   ├── flights.py
+│   └── aggregate.py
 ├── requirements.txt
 └── README.md
+```
