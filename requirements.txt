@@ -1,0 +1,10 @@
+langchain==1.2.7
+langchain-openai==1.1.7
+langsmith==0.6.6
+amadeus==12.0.0
+requests ==2.32.3
+urllib3==2.2.3
+charset-normalizer==3.3.2
+idna==3.7
+certifi==3.7
+python-dotenv
